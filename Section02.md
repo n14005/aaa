@@ -272,8 +272,8 @@ mariadb のデーモン（サービス）が起動しているか確認します
 ソースをダウンロードして、インストールする。
 
 　　　　cd /usr/local/src/
-　　　　
-　　　　wget http://ftp.kddilabs.jp/infosystems/apache/httpdhttpd-2.2.27.tar.gz
+    
+    wget http://ftp.kddilabs.jp/infosystems/apache/httpdhttpd-2.2.27.tar.gz
 　　　　
 　　　　tar zxvf ./httpd-2.2.27.tar.gz
 　　　　
