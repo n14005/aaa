@@ -274,16 +274,16 @@ mariadb のデーモン（サービス）が起動しているか確認します
 　　　　cd /usr/local/src/
     
     wget http://ftp.kddilabs.jp/infosystems/apache/httpdhttpd-2.2.27.tar.gz
-　　　　
-　　　　tar zxvf ./httpd-2.2.27.tar.gz
-　　　　
-　　　　cd ./httpd-2.2.27
-　　　　
-　　　　./configure --prefix=/usr/local/apache --enable-so --enable-ssl --enable-rewrite
-　　　　
-　　　　make
-　　　　
-　　　　make install
+
+    tar zxvf ./httpd-2.2.27.tar.gz
+
+    cd ./httpd-2.2.27
+
+    ./configure --prefix=/usr/local/apache --enable-so --enable-ssl --enable-rewrite
+
+    make
+
+    make install
 
 　　　　/usr/local/apache/bin/apachectl start
 
