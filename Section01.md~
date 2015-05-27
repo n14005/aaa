@@ -148,7 +148,6 @@ enableになっていたらOK。
 
 　　　　mv wordpress/ /var/www/html/データベース名　
 	↑WordPress解凍先ディレクトリを/var/www/html/データベース名　ディレクトリ下へ移動（データベース名はmariadbの奴）
-かわからないけどインストール
 
     chmod 777 /var/www/html/データベース名　
 	↑WordPressディレクトリを一時的に書込可にする
